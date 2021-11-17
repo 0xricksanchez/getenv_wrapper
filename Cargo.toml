@@ -1,0 +1,14 @@
+[package]
+name = "ets"
+version = "0.1.0"
+license = "MIT"
+description = "Hooks getenv() calls and replaces whatever value was set with data from stdin"
+authors = ["<admin@0x434b.dev>"]
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
+
